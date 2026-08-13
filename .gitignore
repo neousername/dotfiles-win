@@ -1,0 +1,27 @@
+# Ignore everything recursively
+*
+
+# Keep gitignore
+!.gitignore
+
+# Alacritty
+!AppData/
+!AppData/Roaming/
+!AppData/Roaming/alacritty/
+!AppData/Roaming/alacritty/alacritty.toml
+
+# Yazi
+!AppData/Roaming/yazi/
+!AppData/Roaming/yazi/config/
+!AppData/Roaming/yazi/config/yazi.toml
+
+# Neovim
+!AppData/Local/
+!AppData/Local/nvim/
+!AppData/Local/nvim/**
+AppData/Local/nvim/lazy-lock.json
+
+# PowerShell
+!Documents/
+!Documents/WindowsPowerShell/
+!Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1
