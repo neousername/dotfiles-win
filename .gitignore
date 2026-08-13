@@ -25,3 +25,6 @@ AppData/Local/nvim/lazy-lock.json
 !Documents/
 !Documents/WindowsPowerShell/
 !Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1
+
+# psmux
+!.psmux.conf
