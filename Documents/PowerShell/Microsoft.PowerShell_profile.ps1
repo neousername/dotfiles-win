@@ -27,8 +27,3 @@ Set-Alias g lazygit
 function prompt {
     "[$(Split-Path -Leaf (Get-Location))]$ "
 }
-
-# Add ssh key to the session
-if (-not (ssh-add -l 2>$null | Select-String "id_ed25519")) {
-    ssh-add "$HOME\.ssh\id_ed25519"
-}
